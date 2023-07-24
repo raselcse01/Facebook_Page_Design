@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="image/facebook.png" class="logo">
+            <ul>
+                <li><img src="image/bell.png"></li>
+                <li><img src="image/video.png"></li>
+                <li><img src="image/inbox.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="image/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="image/profile-pic.png">
+            </div>
+
+        </div>
+        <!-------------settings-menu-------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="image/pro.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="image/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us to improve to new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="image/settings.png" class="setings-icons">
+                    <a href="#">Settings & Privacy <img src="image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="image/settings.png" class="setings-icons">
+                    <a href="#">Help & Support <img src="image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="image/settings.png" class="setings-icons">
+                    <a href="#">Display & Accessibility <img src="image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="image/logout.png" class="setings-icons">
+                    <a href="#">Logout <img src="image/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <!------------left-sidebar--------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="image/news.png" > Latest News</a>
+                <a href="#"><img src="image/friends.png" > Friends</a>
+                <a href="#"><img src="image/group.png" > Group</a>
+                <a href="#"><img src="image/marketplace.png" > Marketplace</a>
+                <a href="#"><img src="image/watch.png" > Watch</a>
+                <a href="#">See more</a>
+            </div>
+
+            
+                <div class="shortcut-links">
+                    <p>Your Shortcut</p>
+                    <a href="#"><img src="image/shortcut1.png" > Web Developer</a>
+                    <a href="#"><img src="image/shortcut2.png" > Web Design</a>
+                    <a href="#"><img src="image/shortcut3.png" > FullStack Developer</a>
+                    <a href="#"><img src="image/shortcut4.png" > WebSite Experts</a>
+                </div>
+
+        </div>
+        <!------------left-sidebar--------------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="image/upload.png">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="image/member01.png">
+                    <p>Aqib</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="image/member02.png">
+                    <p>Rasel</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="image/member04.png">
+                    <p>Bokor</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="image/member05.png">
+                    <p>Siddique</p>
+                </div>    
+            </div>
+
+            <div class="Write-post-container">
+                <div class="user-profile">
+                    <img src="image/pro.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <img src="image/down.png"></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind,John"></textarea>
+                    <div class="add-post-links">
+                       <a href="#"><img src="image/video1.png"> Live Video</a>
+                       <a href="#"><img src="image/camera.png">  Photo/Video</a>
+                       <a href="#"><img src="image/feeling.png"> Feeling/Activity</a> 
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/pro.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 25 2022, 12:30 pm</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                    <p class="post-text">Subcribe <span>@Easy tutorials</span> YouTube channel to watch more videos</p><a href="#">#EasyTutorials</a><a href="#">#YouTubeChannels</a>
+                    <img src="image/status-4.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png">120</div>
+                            <div><img src="image/Comment.png">450</div>
+                            <div><img src="image/Share.png">200</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="image/pro.png"><img src="image/down.png">
+                        </div>
+
+                    </div>
+
+            </div>
+            
+            <div class="post-container">
+                
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/pro.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 25 2022, 12:30 pm</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                    <p class="post-text">Subcribe <span>@Easy tutorials</span> YouTube channel to watch more videos</p><a href="#">#EasyTutorials</a><a href="#">#YouTubeChannels</a>
+                    <img src="image/shortcut2.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png">120</div>
+                            <div><img src="image/Comment.png">450</div>
+                            <div><img src="image/Share.png">200</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="image/pro.png"><img src="image/down.png">
+                        </div>
+
+                    </div>
+
+            </div>
+
+            <div class="post-container">
+                
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/pro.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 25 2022, 12:30 pm</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                    <p class="post-text">Subcribe <span>@Easy tutorials</span> YouTube channel to watch more videos</p><a href="#">#EasyTutorials</a><a href="#">#YouTubeChannels</a>
+                    <img src="image/shortcut1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png">120</div>
+                            <div><img src="image/Comment.png">450</div>
+                            <div><img src="image/Share.png">200</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="image/pro.png"><img src="image/down.png">
+                        </div>
+
+                    </div>
+
+            </div>
+
+            <div class="post-container">
+                
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/pro.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 25 2022, 12:30 pm</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                    <p class="post-text">Subcribe <span>@Easy tutorials</span> YouTube channel to watch more videos</p><a href="#">#EasyTutorials</a><a href="#">#YouTubeChannels</a>
+                    <img src="image/img1.png" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="image/like.png">120</div>
+                            <div><img src="image/Comment.png">450</div>
+                            <div><img src="image/Share.png">200</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="image/pro.png"><img src="image/down.png">
+                        </div>
+                    </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Lode More</button>
+            
+        </div
+            
+
+        </div>
+        <!------------left-sidebar--------------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Event</h4>
+                <a href="#">See All</a>
+            </div>
+
+            
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><img src="image/location.png"> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Degital Marketing</h4>
+                    <p><img src="image/location.png"> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Closed</a>
+            </div>
+            <img src="image/advertisement.png" class="sidebar-ads">
+        
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="image/member1.png">
+                </div>
+                <p>Rasel Hossain</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="image/member2.png">
+                </div>
+                <p>Ali Hossain</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="image/member3.png">
+                </div>
+                <p>Alia Hossain</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2022 - Easy Turorials YouTube channel </p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
